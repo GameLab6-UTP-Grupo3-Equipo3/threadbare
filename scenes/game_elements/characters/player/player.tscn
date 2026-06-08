@@ -459,6 +459,8 @@ unique_name_in_owner = true
 root_node = NodePath("../../PlayerRepel")
 libraries/ = SubResource("AnimationLibrary_1n58k")
 
+[node name="RayCast2D" type="RayCast2D" parent="." unique_id=1296957563]
+
 [connection signal="running_changed" from="InputWalkBehavior" to="PlayerDustParticles" method="set_emitting"]
 [connection signal="running_changed" from="InputWalkBehavior" to="AnimationPlayer" method="_on_input_walk_behavior_running_changed"]
 [connection signal="aiming_changed" from="PlayerHook" to="." method="_on_player_hook_aiming_changed"]

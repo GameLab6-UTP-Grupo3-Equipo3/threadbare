@@ -1,19 +1,24 @@
 [gd_scene format=3 uid="uid://v3usqiwy5wpr"]
 
+[ext_resource type="Script" uid="uid://dn3ursunah1yn" path="res://scenes/quests/story_quests/en_la_prondidad/1_stealth/stealth_components/rock.gd" id="1_cqqkd"]
 [ext_resource type="Texture2D" uid="uid://ctwx8gghts62p" path="res://assets/third_party/tiny-swords/Deco/06.png" id="2_qsbjv"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_kw7av"]
-height = 42.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_aobjm"]
+size = Vector2(33.999996, 44.000004)
 
 [node name="Rock" type="StaticBody2D" unique_id=1319147835]
 collision_layer = 16
 collision_mask = 0
+script = ExtResource("1_cqqkd")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1310606653]
 unique_name_in_owner = true
 texture = ExtResource("2_qsbjv")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2100829996]
-position = Vector2(3, 7)
+position = Vector2(1.999995, -1.5497208e-06)
 rotation = 1.5708
-shape = SubResource("CapsuleShape2D_kw7av")
+shape = SubResource("RectangleShape2D_aobjm")
+
+[node name="RayCast2D" type="RayCast2D" parent="." unique_id=1708507087]
+target_position = Vector2(64, 0)
