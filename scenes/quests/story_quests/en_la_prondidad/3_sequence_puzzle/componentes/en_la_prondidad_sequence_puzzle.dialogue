@@ -1,5 +1,5 @@
 ~ start
-Narrador: Vamonos a la mierda equisdé
+Narrador: equisdé
 => END
 
 ~ objeto_1_recogido
@@ -18,4 +18,6 @@ Nereo: huele a obo
 Nereo: lel
 => END
 
-
+~ partida_guardada
+Nereo: Un extraño calor emana de esta figura... Siento que si me pierdo en la profundidad, podré regresar exactamente a este instante.
+=> END
