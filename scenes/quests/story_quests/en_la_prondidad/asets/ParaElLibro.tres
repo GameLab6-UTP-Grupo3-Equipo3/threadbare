@@ -1,0 +1,61 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ya18fpkwkipe"]
+
+[ext_resource type="Texture2D" uid="uid://dcp1gopdhjne3" path="res://scenes/quests/story_quests/en_la_prondidad/asets/enemy/mIdle.png" id="3_lhsx6"]
+[ext_resource type="Texture2D" uid="uid://bphycg0hcfrm" path="res://scenes/quests/story_quests/en_la_prondidad/asets/enemy/Transform1.png" id="4_86fb7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qwxmk"]
+atlas = ExtResource("4_86fb7")
+region = Rect2(0, 0, 169, 140)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7r1a3"]
+atlas = ExtResource("4_86fb7")
+region = Rect2(169, 0, 169, 140)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wcnqe"]
+atlas = ExtResource("4_86fb7")
+region = Rect2(338, 0, 169, 140)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_on7t2"]
+atlas = ExtResource("4_86fb7")
+region = Rect2(507, 0, 169, 140)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7xaa0"]
+atlas = ExtResource("4_86fb7")
+region = Rect2(676, 0, 169, 140)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x428x"]
+atlas = ExtResource("3_lhsx6")
+region = Rect2(0, 0, 204, 164)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_44bv2"]
+atlas = ExtResource("3_lhsx6")
+region = Rect2(0, 164, 204, 164)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qwxmk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7r1a3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wcnqe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_on7t2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7xaa0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x428x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_44bv2")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]

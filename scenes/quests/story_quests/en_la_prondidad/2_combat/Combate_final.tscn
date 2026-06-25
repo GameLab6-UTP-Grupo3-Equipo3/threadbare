@@ -134,6 +134,7 @@ position = Vector2(252, 1773)
 highlight_color = Color(0, 0.4392157, 1, 1)
 
 [node name="Osohilo" type="Sprite2D" parent="OnTheGround" unique_id=885789403]
+visible = false
 z_index = 10
 position = Vector2(2185, 463)
 scale = Vector2(0.93750155, 0.99999994)
@@ -221,7 +222,7 @@ shape = SubResource("CircleShape2D_ybm8k")
 debug_color = Color(0.600391, 0.54335, 0, 0.42)
 
 [node name="Marker" type="Marker2D" parent="EnemigoHermano/InteractArea" unique_id=178796639]
-position = Vector2(0, -128)
+position = Vector2(-3.9269764, -58)
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="EnemigoHermano" unique_id=283801339]
 visible = false
