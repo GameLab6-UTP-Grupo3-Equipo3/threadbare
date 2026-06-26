@@ -348,9 +348,9 @@ tiempo_reiniciar_al_perder = 5.0
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1997301723]
 anchor_mode = 0
 zoom = Vector2(0.8, 0.8)
-limit_left = 0
+limit_left = 3800
 limit_top = 0
-limit_right = 1600
+limit_right = 5400
 limit_bottom = 900
 
 [node name="tilesets" type="Node2D" parent="." unique_id=783258858]

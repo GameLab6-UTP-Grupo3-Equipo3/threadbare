@@ -180,7 +180,7 @@ position = Vector2(1966, 445)
 scale = Vector2(1.0185953, 1)
 script = ExtResource("19_raop8")
 escena_combate = ExtResource("20_ovxkm")
-contenedor_combate = NodePath("Node2D")
+contenedor_combate = NodePath("../Node2D")
 player = NodePath("../OnTheGround/Player")
 camara_jugador = NodePath("../OnTheGround/Player/Camera2D")
 animacion = NodePath("AnimatedSprite2D")
@@ -191,9 +191,6 @@ text2 = NodePath("../ScreenOverlay/TextureRect2")
 interact_area = NodePath("InteractArea")
 talk_behavior = NodePath("TalkBehavior")
 dialogo_final = ExtResource("21_ybm8k")
-
-[node name="Node2D" type="Node2D" parent="EnemigoHermano" unique_id=1500723732]
-position = Vector2(1798.5552, -445)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="EnemigoHermano" unique_id=525379849]
 scale = Vector2(-1, 1)
@@ -239,6 +236,10 @@ metadata/_custom_type_script = "uid://edcifob4jc4s"
 script = ExtResource("25_lbfcp")
 stream = ExtResource("27_lbfcp")
 metadata/_custom_type_script = "uid://c8405c212rbn6"
+
+[node name="Node2D" type="Node2D" parent="." unique_id=1500723732]
+position = Vector2(3800, 0)
+scale = Vector2(1.0185953, 1)
 
 [connection signal="cinematic_finished" from="Cinematic" to="FillGameLogic" method="start"]
 [connection signal="goal_reached" from="FillGameLogic" to="OnTheGround/CollectibleItem" method="reveal"]
