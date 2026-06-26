@@ -6,7 +6,7 @@
 [resource]
 script = ExtResource("1_dwsoh")
 title = "Endless Memories"
-description = ":D"
+description = "Nereo no recuerda. Ayúdalo a través de la introspectiva a reconstruir una dolorosa verdad oculta en lo profundo de su mente. Explora la culpa, descifra la música de su pasado y sobrevive al pavor de la noche en un viaje donde olvidar ya no es una opción."
 authors = Array[String](["Stephanie Vega", "Nicole de la Cruz", "Carlos Flor", "Rodrigo Neyra", "Leonardo Garay"])
 first_scene = "uid://5fy8mtsw8x3a"
 sprite_frames = ExtResource("2_5ar5g")

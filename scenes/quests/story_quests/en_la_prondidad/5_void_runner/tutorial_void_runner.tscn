@@ -528,7 +528,7 @@ texture = ExtResource("35_falng")
 y_sort_enabled = true
 
 [node name="Player" parent="OnTheGround" unique_id=296354958 instance=ExtResource("9_41blb")]
-position = Vector2(3680, 1991)
+position = Vector2(159, 967)
 player_name = "StoryWeaver"
 sprite_frames = ExtResource("12_jlssw")
 walk_sound_stream = ExtResource("12_jy7ej")
